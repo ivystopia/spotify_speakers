@@ -1,0 +1,112 @@
+{
+  "project": "compact_uk_spotify_connect_speakers_under_1000_gbp",
+  "generated_on": "2026-04-14",
+  "issue": "Android Spotify app may surface Google Cast instead of native Spotify Connect in mixed Google Cast homes.",
+  "current_assessment": "The risk looks real, recent, and largely app-level. The strongest evidence says it mainly affects speakers that expose both Google Cast and Spotify Connect on Android. Non-Cast speakers therefore look materially safer, even when they are still Wi-Fi speakers with native Spotify Connect.",
+  "evidence": [
+    {
+      "source_type": "Spotify Community moderator",
+      "date": "2026-01-07",
+      "url": "https://community.spotify.com/t5/Android/Choose-between-Google-Cast-and-Spotify-Connect/td-p/7163965/page/9",
+      "summary": "Spotify moderator Dessi wrote that when Android sees more than one Cast-enabled device, Google Cast becomes the only option in order to enable dynamic grouping.",
+      "strength": "high",
+      "applies_to": [
+        "all Google Cast-capable speakers on Android"
+      ]
+    },
+    {
+      "source_type": "Spotify Community user",
+      "date": "2025-10-21",
+      "url": "https://community.spotify.com/t5/Android/Choose-between-Google-Cast-and-Spotify-Connect/m-p/7176889/highlight/true",
+      "summary": "A user reported that Bang & Olufsen Beosound A9 5th Gen and Beosound Emerge showed both Spotify Connect and Chromecast on Windows, but only Chromecast in the Android app.",
+      "strength": "medium",
+      "applies_to": [
+        "B&O Beosound Emerge",
+        "other Google Cast-capable B&O speakers"
+      ]
+    },
+    {
+      "source_type": "Spotify Community user",
+      "date": "2025-10-23",
+      "url": "https://community.spotify.com/t5/Android/Choose-between-Google-Cast-and-Spotify-Connect/m-p/7176889/highlight/true",
+      "summary": "Another user said unplugging a Google Home Mini restored Spotify Connect on Android; plugging it back in removed the Connect option again.",
+      "strength": "medium",
+      "applies_to": [
+        "mixed Google Cast homes generally"
+      ]
+    },
+    {
+      "source_type": "Spotify Community user",
+      "date": "2025-10-31",
+      "url": "https://community.spotify.com/t5/Android/Choose-between-Google-Cast-and-Spotify-Connect/td-p/7163965/page/4",
+      "summary": "A user reported that disconnecting a Google Audio device made Spotify Connect reappear on Android.",
+      "strength": "medium",
+      "applies_to": [
+        "mixed Google Cast homes generally"
+      ]
+    },
+    {
+      "source_type": "Spotify Community user",
+      "date": "2025-11-01",
+      "url": "https://community.spotify.com/t5/Android/Choose-between-Google-Cast-and-Spotify-Connect/td-p/7163965/page/4",
+      "summary": "A user with Naim Cast-capable devices said Android only showed Google Cast when more than one Cast device was powered on, and explicitly noted that their previous Bluesound Node had no such problem because it did not support Google Cast.",
+      "strength": "medium",
+      "applies_to": [
+        "Cast-capable speakers generally",
+        "Bluesound as a lower-risk contrast"
+      ]
+    },
+    {
+      "source_type": "Bluesound community",
+      "date": "2023-10-14 to 2024-11-22",
+      "url": "https://support1.bluesound.com/hc/en-us/community/posts/18269204040343-Chromecast-Support",
+      "summary": "Repeated user requests complain that Bluesound still has no Chromecast support, which indirectly makes Bluesound less exposed to the Android Cast-vs-Connect failure mode.",
+      "strength": "medium",
+      "applies_to": [
+        "Bluesound PULSE M"
+      ]
+    },
+    {
+      "source_type": "Sonos community",
+      "date": "2023-10-19",
+      "url": "https://en.community.sonos.com/controllers-and-music-services-229131/using-google-podcast-app-6886317",
+      "summary": "Community responders describe Sonos as supporting Spotify Connect and AirPlay but not Chromecast.",
+      "strength": "medium",
+      "applies_to": [
+        "Sonos Era 100"
+      ]
+    }
+  ],
+  "model_implications": [
+    {
+      "model": "Sonos Era 100",
+      "risk_level": "low",
+      "reason": "The specific Android failure pattern mainly affects speakers that expose both Google Cast and Spotify Connect. Sonos community evidence says Sonos is not a Chromecast target, so this speaker looks structurally safer."
+    },
+    {
+      "model": "Bluesound PULSE M",
+      "risk_level": "low",
+      "reason": "Official product material reviewed did not show Google Cast, and Bluesound community posts complain about Chromecast being absent. That is a feature gap for some buyers, but it reduces this exact Android failure mode."
+    },
+    {
+      "model": "B&O Beosound Emerge",
+      "risk_level": "high",
+      "reason": "Officially supports Google Cast and has direct recent community evidence showing B&O Emerge and A9 only exposing Chromecast on Android."
+    },
+    {
+      "model": "Denon Home 150",
+      "risk_level": "low to medium",
+      "reason": "No Google Cast support was found in the official docs reviewed, so the exact failure mode looks less likely, but the evidence base is thinner than for Sonos or Bluesound."
+    },
+    {
+      "model": "JBL Authentics 200",
+      "risk_level": "high",
+      "reason": "Official JBL material clearly advertises Chromecast built-in and Spotify Connect. That puts it in the exposed class even before considering the missing exact Spotify page."
+    },
+    {
+      "model": "Audio Pro A10 MkII",
+      "risk_level": "medium to high",
+      "reason": "Official Audio Pro material confirms Google Cast, so it sits in the same exposed class as other dual-path Cast-plus-Connect speakers."
+    }
+  ]
+}

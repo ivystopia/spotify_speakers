@@ -1,0 +1,259 @@
+{
+  "project": "compact_uk_spotify_connect_speakers_under_1000_gbp",
+  "generated_on": "2026-04-14",
+  "currency": "GBP",
+  "short_answer": "Best default buy: Sonos Era 100. Best higher-end non-Cast alternative: Bluesound PULSE M. Best compact luxury option if you accept Android risk: B&O Beosound Emerge. Denon Home 150 remains a fallback only because Spotify's exact page says Lossless 16-bit, not 24-bit.",
+  "methodology_summary": [
+    "Started from Spotify's own Connect site, extracted the embedded catalog from https://connect.spotify.com/, then verified exact models individually at https://connect.spotify.com/devices/<slug>.",
+    "Used manufacturer pages and official PDFs to confirm form factor, Bluetooth, Google Cast status, price, and UK availability.",
+    "Ran a second-pass Android risk review using recent Spotify Community threads and relevant brand-community posts."
+  ],
+  "shortlist_order": [
+    "Sonos Era 100",
+    "Bluesound PULSE M",
+    "B&O Beosound Emerge",
+    "Denon Home 150"
+  ],
+  "candidates": [
+    {
+      "model": "Sonos Era 100",
+      "brand": "Sonos",
+      "status": "shortlist",
+      "recommendation_category": "Strong fit",
+      "confidence": "high",
+      "spotify_exact_verdict": "Confirmed Lossless 24-bit on Spotify's exact model page.",
+      "approx_uk_price_gbp": "199",
+      "uk_availability_summary": "Sonos UK official page showed £199 and in stock on 2026-04-14.",
+      "google_home_google_cast_summary": "Google Assistant control exists in the Sonos ecosystem, but Sonos community evidence says Sonos does not support Chromecast. That is good for this brief.",
+      "bluetooth_summary": "Yes.",
+      "form_factor_summary": "Yes. Single powered tabletop speaker, 182.5 x 120 x 130.5 mm, close to the Nest Audio brief.",
+      "android_cast_vs_connect_risk": "Low.",
+      "why_it_is_here": "This is the cleanest combination of exact Spotify 24-bit proof, low Android risk, compact size, UK availability, and sensible price.",
+      "spotify_source": "https://connect.spotify.com/devices/sonos-era-100",
+      "manufacturer_sources": [
+        "https://www.sonos.com/en-gb/shop/era-100",
+        "https://support.sonos.com/en-us/article/set-up-a-google-assistant-device-to-control-sonos"
+      ],
+      "community_sources": [
+        "https://en.community.sonos.com/controllers-and-music-services-229131/using-google-podcast-app-6886317",
+        "https://community.spotify.com/t5/Android/Choose-between-Google-Cast-and-Spotify-Connect/td-p/7163965/page/9"
+      ]
+    },
+    {
+      "model": "Bluesound PULSE M",
+      "brand": "Bluesound",
+      "status": "shortlist",
+      "recommendation_category": "Strong fit",
+      "confidence": "medium-high",
+      "spotify_exact_verdict": "Confirmed Lossless 24-bit on Spotify's exact model page.",
+      "approx_uk_price_gbp": "429",
+      "uk_availability_summary": "Bluesound UK pages showed £429 on 2026-04-14 and active store inventory markup, though the site embeds mixed stock snippets and should be double-checked at checkout.",
+      "google_home_google_cast_summary": "No Google Cast or Chromecast support was found in official product material reviewed, and Bluesound community posts complain that Chromecast is still missing.",
+      "bluetooth_summary": "Yes. Bluetooth 5.0 with aptX HD support is listed on the official product page.",
+      "form_factor_summary": "Yes, but larger than Nest Audio. Single powered tabletop speaker, 171 x 204 x 149 mm.",
+      "android_cast_vs_connect_risk": "Low.",
+      "why_it_is_here": "This is the strongest more-hi-fi, non-Cast alternative under budget, and it avoids the main Android failure mode that affects Cast-capable speakers.",
+      "spotify_source": "https://connect.spotify.com/devices/bluesound-pulse-m",
+      "manufacturer_sources": [
+        "https://www.bluesound.com/gbr/pulse-m",
+        "https://www.bluesound.com/products/pulse-m/"
+      ],
+      "community_sources": [
+        "https://support1.bluesound.com/hc/en-us/community/posts/18269204040343-Chromecast-Support",
+        "https://community.spotify.com/t5/Android/Choose-between-Google-Cast-and-Spotify-Connect/td-p/7163965/page/4"
+      ]
+    },
+    {
+      "model": "B&O Beosound Emerge",
+      "brand": "Bang & Olufsen",
+      "status": "shortlist",
+      "recommendation_category": "Promising but risky",
+      "confidence": "medium",
+      "spotify_exact_verdict": "Confirmed Lossless 24-bit on Spotify's exact model page.",
+      "approx_uk_price_gbp": "900",
+      "uk_availability_summary": "B&O UK official page showed £900 and InStock on 2026-04-14.",
+      "google_home_google_cast_summary": "Official B&O material explicitly lists Google Cast and describes grouped playback via Google Cast or AirPlay.",
+      "bluetooth_summary": "Yes. Bluetooth 5.0 is listed on the official page.",
+      "form_factor_summary": "Yes. Single powered compact speaker with a slim bookshelf-like footprint, 6.7 W x 25.5 H x 16.5 D cm.",
+      "android_cast_vs_connect_risk": "High.",
+      "why_it_is_here": "It satisfies the exact Spotify 24-bit requirement and has the most elegant compact form factor, but the Android Cast-vs-Connect evidence is directly unfavorable for B&O speakers.",
+      "spotify_source": "https://connect.spotify.com/devices/bang-olufsen-bo-beosound-emerge",
+      "manufacturer_sources": [
+        "https://www.bang-olufsen.com/en/gb/speakers/beosound-emerge"
+      ],
+      "community_sources": [
+        "https://community.spotify.com/t5/Android/Choose-between-Google-Cast-and-Spotify-Connect/m-p/7176889/highlight/true",
+        "https://community.spotify.com/t5/Android/Choose-between-Google-Cast-and-Spotify-Connect/td-p/7163965/page/9"
+      ]
+    },
+    {
+      "model": "Denon Home 150",
+      "brand": "Denon",
+      "status": "shortlist",
+      "recommendation_category": "Fallback",
+      "confidence": "medium-high",
+      "spotify_exact_verdict": "Spotify's exact model page confirms Lossless 16-bit, not Lossless 24-bit.",
+      "approx_uk_price_gbp": "179-219",
+      "uk_availability_summary": "Richer Sounds showed the standard Home 150 Black at £219 and the Home 150 NV variant at £179 on 2026-04-14. Availability appears retailer-led rather than strongly direct-from-brand.",
+      "google_home_google_cast_summary": "No Google Cast support was found in the official Denon material reviewed; Denon instead emphasizes HEOS, AirPlay 2, Bluetooth, Wi-Fi, and Alexa.",
+      "bluetooth_summary": "Yes.",
+      "form_factor_summary": "Yes. Single powered compact speaker, roughly 120 x 187 x 120 mm.",
+      "android_cast_vs_connect_risk": "Low to medium.",
+      "why_it_is_here": "If exact 24-bit proof turns out to be negotiable, this is still a compact standalone speaker with native Spotify Connect and likely lower Cast-related risk than Chromecast-capable rivals.",
+      "spotify_source": "https://connect.spotify.com/devices/denon-home-150",
+      "manufacturer_sources": [
+        "https://assets.denon.com/DocumentMaster/us/Denon_Home_150_Product_Information_Sheet.pdf",
+        "https://www.richersounds.com/denon-home-150-black/",
+        "https://www.richersounds.com/denon-home-150-nv-black/"
+      ],
+      "community_sources": [
+        "https://community.spotify.com/t5/Android/Choose-between-Google-Cast-and-Spotify-Connect/td-p/7163965/page/9"
+      ]
+    },
+    {
+      "model": "JBL Authentics 200",
+      "brand": "JBL",
+      "status": "excluded",
+      "recommendation_category": "Avoid",
+      "confidence": "medium",
+      "spotify_exact_verdict": "Not confirmed. The attempted exact Spotify page was missing or unparseable.",
+      "approx_uk_price_gbp": "309",
+      "uk_availability_summary": "Current UK retailer pricing appears around £309, so price is not the problem.",
+      "google_home_google_cast_summary": "Official JBL material explicitly lists Chromecast built-in, Spotify Connect, Bluetooth, and Google Home multi-room playback.",
+      "bluetooth_summary": "Yes. Official JBL spec sheet lists Bluetooth 5.3.",
+      "form_factor_summary": "Yes, but wider than Nest Audio. Single powered tabletop speaker, 266.3 x 171.7 x 167.4 mm.",
+      "android_cast_vs_connect_risk": "High.",
+      "why_it_is_here": "This is an attractive paper candidate, but it fails the exact Spotify-page requirement and sits in the high-risk Google Cast class.",
+      "spotify_source": "https://connect.spotify.com/devices/jbl-authentics-200",
+      "manufacturer_sources": [
+        "https://uk.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwf92efa50/pdfs/JBL_Authentics_200_Specsheet_EN.pdf"
+      ],
+      "community_sources": [
+        "https://community.spotify.com/t5/Android/Choose-between-Google-Cast-and-Spotify-Connect/td-p/7163965/page/9",
+        "https://community.spotify.com/t5/Android/Choose-between-Google-Cast-and-Spotify-Connect/td-p/7163965/page/10"
+      ]
+    },
+    {
+      "model": "Audio Pro A10 MkII",
+      "brand": "Audio Pro",
+      "status": "excluded",
+      "recommendation_category": "Avoid",
+      "confidence": "medium",
+      "spotify_exact_verdict": "Spotify exact proof is too weak. Spotify has an exact page for Audio Pro A10, but it does not confirm 24-bit and may not cover the current MkII retail model.",
+      "approx_uk_price_gbp": null,
+      "uk_availability_summary": "UK listings exist, but exact current pricing was not pinned down in this pass because Spotify proof failed first.",
+      "google_home_google_cast_summary": "Official Audio Pro material confirms Google Cast, AirPlay 2, Bluetooth, and Spotify Connect.",
+      "bluetooth_summary": "Yes.",
+      "form_factor_summary": "Yes. Compact standalone speaker in the right general class.",
+      "android_cast_vs_connect_risk": "Medium to high.",
+      "why_it_is_here": "This is the most obvious near-miss. The hardware is plausible, but it does not meet the exact Spotify-page evidence rule for this project.",
+      "spotify_source": "https://connect.spotify.com/devices/audio-pro-a10",
+      "manufacturer_sources": [
+        "https://audiopro.com/products/a10-mkii/"
+      ],
+      "community_sources": [
+        "https://community.spotify.com/t5/Android/Choose-between-Google-Cast-and-Spotify-Connect/td-p/7163965/page/9"
+      ]
+    },
+    {
+      "model": "Sonos Move 2",
+      "brand": "Sonos",
+      "status": "excluded",
+      "recommendation_category": "Promising but outside target",
+      "confidence": "high",
+      "spotify_exact_verdict": "Confirmed Lossless 24-bit on Spotify's exact model page.",
+      "approx_uk_price_gbp": "449",
+      "uk_availability_summary": "Sonos UK official page showed £449 on 2026-04-14.",
+      "google_home_google_cast_summary": "Same Sonos ecosystem position as Era 100: useful Google Assistant control options, but not a Chromecast target.",
+      "bluetooth_summary": "Yes.",
+      "form_factor_summary": "Not really. Single powered speaker, but substantially larger than Nest Audio at roughly 241 x 160 x 127 mm.",
+      "android_cast_vs_connect_risk": "Low.",
+      "why_it_is_here": "A good speaker, but it misses the size target that matters in this brief.",
+      "spotify_source": "https://connect.spotify.com/devices/sonos-sonos-move-2",
+      "manufacturer_sources": [
+        "https://www.sonos.com/en-gb/shop/move-2"
+      ],
+      "community_sources": [
+        "https://en.community.sonos.com/controllers-and-music-services-229131/using-google-podcast-app-6886317"
+      ]
+    },
+    {
+      "model": "B&O Beosound A5",
+      "brand": "Bang & Olufsen",
+      "status": "excluded",
+      "recommendation_category": "Avoid",
+      "confidence": "high",
+      "spotify_exact_verdict": "Confirmed Lossless 24-bit on Spotify's exact model page.",
+      "approx_uk_price_gbp": "1400",
+      "uk_availability_summary": "B&O UK official page showed £1,400 and InStock on 2026-04-14.",
+      "google_home_google_cast_summary": "Official B&O ecosystem support includes Google Cast.",
+      "bluetooth_summary": "Yes.",
+      "form_factor_summary": "Standalone speaker, but over budget and less Nest-like than the top picks.",
+      "android_cast_vs_connect_risk": "High.",
+      "why_it_is_here": "Spotify confirmation is excellent, but the speaker is over the stated budget cap.",
+      "spotify_source": "https://connect.spotify.com/devices/bang-olufsen-bo-beosound-a5",
+      "manufacturer_sources": [
+        "https://www.bang-olufsen.com/en/gb/speakers/beosound-a5"
+      ],
+      "community_sources": [
+        "https://community.spotify.com/t5/Android/Choose-between-Google-Cast-and-Spotify-Connect/m-p/7176889/highlight/true"
+      ]
+    },
+    {
+      "model": "Sonos Roam",
+      "brand": "Sonos",
+      "status": "excluded",
+      "recommendation_category": "Avoid",
+      "confidence": "medium",
+      "spotify_exact_verdict": "Confirmed Lossless 24-bit on Spotify's exact model page.",
+      "approx_uk_price_gbp": null,
+      "uk_availability_summary": "Current pricing was not pinned down in this pass because the form-factor mismatch already excluded it.",
+      "google_home_google_cast_summary": "Same low-risk Sonos ecosystem position as Era 100.",
+      "bluetooth_summary": "Yes.",
+      "form_factor_summary": "Too small. It is portable-speaker sized rather than a meaningful Nest Audio upgrade.",
+      "android_cast_vs_connect_risk": "Low.",
+      "why_it_is_here": "Technically eligible on Spotify, but it is the wrong scale for this purchase.",
+      "spotify_source": "https://connect.spotify.com/devices/sonos-roam",
+      "manufacturer_sources": [],
+      "community_sources": [
+        "https://en.community.sonos.com/controllers-and-music-services-229131/using-google-podcast-app-6886317"
+      ]
+    },
+    {
+      "model": "PSB Alpha iQ",
+      "brand": "PSB Speakers",
+      "status": "excluded",
+      "recommendation_category": "Avoid",
+      "confidence": "high",
+      "spotify_exact_verdict": "Confirmed Lossless 24-bit on Spotify's exact model page.",
+      "approx_uk_price_gbp": null,
+      "uk_availability_summary": "Pricing was not pinned because the product fails the single-speaker requirement first.",
+      "google_home_google_cast_summary": "Google Assistant is referenced on Spotify's page, but the main exclusion is form factor.",
+      "bluetooth_summary": "Yes.",
+      "form_factor_summary": "No. This is a pair of active speakers, not a single self-contained speaker.",
+      "android_cast_vs_connect_risk": "Not assessed in depth.",
+      "why_it_is_here": "Excluded by the hard requirement for one self-contained speaker.",
+      "spotify_source": "https://connect.spotify.com/devices/psb-alpha-iq",
+      "manufacturer_sources": [],
+      "community_sources": []
+    },
+    {
+      "model": "Denon DNP-2000NE",
+      "brand": "Denon",
+      "status": "excluded",
+      "recommendation_category": "Avoid",
+      "confidence": "high",
+      "spotify_exact_verdict": "Confirmed Lossless 24-bit on Spotify's exact model page.",
+      "approx_uk_price_gbp": null,
+      "uk_availability_summary": "Not pinned because the product fails the product-type requirement first.",
+      "google_home_google_cast_summary": "Not relevant here.",
+      "bluetooth_summary": "Yes, but not relevant.",
+      "form_factor_summary": "No. It is a streamer, not a speaker.",
+      "android_cast_vs_connect_risk": "Not assessed in depth.",
+      "why_it_is_here": "Useful sanity check that Spotify's catalog contains 24-bit devices that are not speakers and must be excluded manually.",
+      "spotify_source": "https://connect.spotify.com/devices/denon-dnp-2000ne",
+      "manufacturer_sources": [],
+      "community_sources": []
+    }
+  ]
+}

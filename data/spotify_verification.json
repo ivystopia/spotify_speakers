@@ -1,0 +1,256 @@
+{
+  "project": "compact_uk_spotify_connect_speakers_under_1000_gbp",
+  "generated_on": "2026-04-14",
+  "spotify_site_discovery_notes": [
+    {
+      "finding": "Spotify's public Connect site does not expose a neat public 24-bit speaker filter, but the root page embeds a machine-readable device catalog in the HTML.",
+      "source_url": "https://connect.spotify.com/",
+      "raw_artifact": "artifacts/raw/spotify_connect_root.html",
+      "catalog_artifact": "artifacts/raw/spotify_connect_catalog.json"
+    },
+    {
+      "finding": "Exact device verification pages resolve at /devices/<slug> and are usable as the source of truth for the exact model.",
+      "example_url": "https://connect.spotify.com/devices/sonos-era-100"
+    },
+    {
+      "finding": "The extracted catalog contained 506 devices total. Of those, 23 were tagged both Wireless Speakers and lossless-24-bit.",
+      "derived_from_artifact": "artifacts/raw/spotify_connect_catalog.json"
+    },
+    {
+      "finding": "The phrase 'This page is out of tune' appears even on valid exact-model pages, so validity had to be determined from the embedded page data rather than that string alone.",
+      "derived_from_artifact": "artifacts/raw/spotify_exact_verifications.json"
+    }
+  ],
+  "verifications": [
+    {
+      "slug": "sonos-era-100",
+      "exact_model_name": "Sonos Era 100",
+      "brand": "Sonos",
+      "spotify_page_url": "https://connect.spotify.com/devices/sonos-era-100",
+      "raw_html_path": "artifacts/raw/spotify_devices/sonos-era-100.html",
+      "status": "exact_page_confirmed",
+      "collections": [
+        "Audio",
+        "Wireless Speakers"
+      ],
+      "tags": [
+        "Lossless 24-bit",
+        "Wifi",
+        "Multiroom",
+        "Alexa",
+        "Bluetooth"
+      ],
+      "lossless_status": "24-bit",
+      "standalone_speaker_assessment": "Yes",
+      "project_relevance": "Top shortlist candidate."
+    },
+    {
+      "slug": "bluesound-pulse-m",
+      "exact_model_name": "PULSE M",
+      "brand": "Bluesound",
+      "spotify_page_url": "https://connect.spotify.com/devices/bluesound-pulse-m",
+      "raw_html_path": "artifacts/raw/spotify_devices/bluesound-pulse-m.html",
+      "status": "exact_page_confirmed",
+      "collections": [
+        "Audio",
+        "Wireless Speakers"
+      ],
+      "tags": [
+        "Bluetooth",
+        "Multiroom",
+        "Lossless 24-bit",
+        "Wifi",
+        "Works with Spotify Free"
+      ],
+      "lossless_status": "24-bit",
+      "standalone_speaker_assessment": "Yes",
+      "project_relevance": "Top shortlist candidate."
+    },
+    {
+      "slug": "bang-olufsen-bo-beosound-emerge",
+      "exact_model_name": "B&O Beosound Emerge",
+      "brand": "Bang & Olufsen",
+      "spotify_page_url": "https://connect.spotify.com/devices/bang-olufsen-bo-beosound-emerge",
+      "raw_html_path": "artifacts/raw/spotify_devices/bang-olufsen-bo-beosound-emerge.html",
+      "status": "exact_page_confirmed",
+      "collections": [
+        "Audio",
+        "Wireless Speakers"
+      ],
+      "tags": [
+        "Works with Spotify Free",
+        "Bluetooth",
+        "Wifi",
+        "Multiroom",
+        "Lossless 24-bit"
+      ],
+      "lossless_status": "24-bit",
+      "standalone_speaker_assessment": "Yes",
+      "project_relevance": "Top shortlist candidate, but Android risk is elevated because the speaker also supports Google Cast."
+    },
+    {
+      "slug": "denon-home-150",
+      "exact_model_name": "Denon Home 150",
+      "brand": "Denon",
+      "spotify_page_url": "https://connect.spotify.com/devices/denon-home-150",
+      "raw_html_path": "artifacts/raw/spotify_devices/denon-home-150.html",
+      "status": "exact_page_confirmed",
+      "collections": [
+        "Audio",
+        "Wireless Speakers"
+      ],
+      "tags": [
+        "Bluetooth",
+        "Wifi",
+        "Works with Spotify Free",
+        "Multiroom",
+        "Lossless 16-bit"
+      ],
+      "lossless_status": "16-bit",
+      "standalone_speaker_assessment": "Yes",
+      "project_relevance": "Useful fallback only; it misses the primary 24-bit requirement."
+    },
+    {
+      "slug": "audio-pro-a10",
+      "exact_model_name": "Audio Pro A10",
+      "brand": "Audio Pro",
+      "spotify_page_url": "https://connect.spotify.com/devices/audio-pro-a10",
+      "raw_html_path": "artifacts/raw/spotify_devices/audio-pro-a10.html",
+      "status": "exact_page_confirmed",
+      "collections": [
+        "Wireless Speakers",
+        "Audio"
+      ],
+      "tags": [
+        "Requires Spotify Premium",
+        "Multiroom"
+      ],
+      "lossless_status": "not_confirmed",
+      "standalone_speaker_assessment": "Yes",
+      "project_relevance": "Weak fit for this brief because the Spotify page does not confirm 24-bit and appears to cover the older A10 rather than the current A10 MkII retail model."
+    },
+    {
+      "slug": "sonos-sonos-move-2",
+      "exact_model_name": "Sonos Move 2",
+      "brand": "Sonos",
+      "spotify_page_url": "https://connect.spotify.com/devices/sonos-sonos-move-2",
+      "raw_html_path": "artifacts/raw/spotify_devices/sonos-sonos-move-2.html",
+      "status": "exact_page_confirmed",
+      "collections": [
+        "Audio",
+        "Wireless Speakers"
+      ],
+      "tags": [
+        "Wifi",
+        "Alexa",
+        "Bluetooth",
+        "Lossless 24-bit"
+      ],
+      "lossless_status": "24-bit",
+      "standalone_speaker_assessment": "Yes",
+      "project_relevance": "Valid 24-bit speaker, but materially larger than the Nest Audio-style brief."
+    },
+    {
+      "slug": "bang-olufsen-bo-beosound-a5",
+      "exact_model_name": "B&O Beosound A5",
+      "brand": "Bang & Olufsen",
+      "spotify_page_url": "https://connect.spotify.com/devices/bang-olufsen-bo-beosound-a5",
+      "raw_html_path": "artifacts/raw/spotify_devices/bang-olufsen-bo-beosound-a5.html",
+      "status": "exact_page_confirmed",
+      "collections": [
+        "Audio",
+        "Wireless Speakers"
+      ],
+      "tags": [
+        "Lossless 24-bit",
+        "Works with Spotify Free",
+        "Wifi",
+        "Multiroom",
+        "Bluetooth"
+      ],
+      "lossless_status": "24-bit",
+      "standalone_speaker_assessment": "Yes",
+      "project_relevance": "Technically valid but over budget."
+    },
+    {
+      "slug": "sonos-roam",
+      "exact_model_name": "Sonos Roam",
+      "brand": "Sonos",
+      "spotify_page_url": "https://connect.spotify.com/devices/sonos-roam",
+      "raw_html_path": "artifacts/raw/spotify_devices/sonos-roam.html",
+      "status": "exact_page_confirmed",
+      "collections": [
+        "Wireless Speakers",
+        "Audio"
+      ],
+      "tags": [
+        "Bluetooth",
+        "Multiroom",
+        "Works with Spotify Free",
+        "Lossless 24-bit"
+      ],
+      "lossless_status": "24-bit",
+      "standalone_speaker_assessment": "Yes",
+      "project_relevance": "Too small to be a meaningful Nest Audio replacement."
+    },
+    {
+      "slug": "psb-alpha-iq",
+      "exact_model_name": "PSB Alpha iQ",
+      "brand": "PSB Speakers",
+      "spotify_page_url": "https://connect.spotify.com/devices/psb-alpha-iq",
+      "raw_html_path": "artifacts/raw/spotify_devices/psb-alpha-iq.html",
+      "status": "exact_page_confirmed",
+      "collections": [
+        "Audio",
+        "Wireless Speakers"
+      ],
+      "tags": [
+        "Lossless 24-bit",
+        "Siri",
+        "Alexa",
+        "Works with Spotify Free",
+        "Multiroom",
+        "Bluetooth",
+        "Google assistant"
+      ],
+      "lossless_status": "24-bit",
+      "standalone_speaker_assessment": "No",
+      "project_relevance": "Excluded because it is an active stereo pair, not a single self-contained speaker."
+    },
+    {
+      "slug": "denon-dnp-2000ne",
+      "exact_model_name": "DNP-2000NE",
+      "brand": "Denon",
+      "spotify_page_url": "https://connect.spotify.com/devices/denon-dnp-2000ne",
+      "raw_html_path": "artifacts/raw/spotify_devices/denon-dnp-2000ne.html",
+      "status": "exact_page_confirmed",
+      "collections": [
+        "Audio",
+        "Streamers & Amplifiers"
+      ],
+      "tags": [
+        "Lossless 24-bit",
+        "Bluetooth",
+        "Wifi",
+        "Works with Spotify Free",
+        "Multiroom"
+      ],
+      "lossless_status": "24-bit",
+      "standalone_speaker_assessment": "No",
+      "project_relevance": "Excluded because it is not a speaker."
+    },
+    {
+      "slug": "jbl-authentics-200",
+      "exact_model_name": "JBL Authentics 200",
+      "brand": "JBL",
+      "spotify_page_url": "https://connect.spotify.com/devices/jbl-authentics-200",
+      "raw_html_path": "artifacts/raw/spotify_devices/jbl-authentics-200.html",
+      "status": "page_missing_or_unparseable",
+      "collections": [],
+      "tags": [],
+      "lossless_status": "not_confirmed",
+      "standalone_speaker_assessment": "Yes",
+      "project_relevance": "Promising hardware on paper, but it fails the exact Spotify-page requirement for this brief."
+    }
+  ]
+}
